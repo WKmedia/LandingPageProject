@@ -4,7 +4,7 @@
     margin: 0%;
     padding:0;
     box-sizing:border-box;
-    border:solid 1px red;
+    
     
 }
 body{    
@@ -33,6 +33,12 @@ footer
     
     
 }
+footer{
+    padding:20px 0;
+    height:75px;
+    align-content: center;
+    font-size: 12px;
+}
 
 .top-bar{
   height:55px;
@@ -46,7 +52,6 @@ footer
 .nav-menu-list{
     max-width: 1080px;
     margin:auto;
-    border:1px solid white;
     display:flex;
     justify-content:space-between;
 }
@@ -63,14 +68,12 @@ footer
     display:flex;
 }
 .nested .menu-item{
-    margin-right: 5px;
-    font-size: 18px;
+    margin-right: 10px;
+    font-size: 16px;
 }
 .flexbox{
     max-width: 1080px;
-    
     margin:auto;
-    border:1px solid white;
     display:flex;
     justify-content:space-evenly;
     padding:5px;
@@ -189,15 +192,39 @@ p.subtext-info{
 
 }
 .fifth-box{
+    width:1080px;
     color:#E5E7EB;
-    height: 100px;
-    margin: 60px 0 60px 0;
+    height: 300px;
+    margin:auto;
     display: flex;
     flex-flow: column;
     justify-content: center;
+    
+}    
+.call-to-action-box {
+    height: 100px;
+    width:800px;
     background-color: #3882f6;
     border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 75px;
 }
+.call-to-action-text {
+    justify-content:flex-start ;
+}
+.call-to-action-text .call-text{
+    font-size: 20px;
+}
+
+.call{
+    border:solid 2.6px #e3e4eb;
+    font-weight: 400;
+    font-size:14px;
+}
+
+
+
 
 
 
